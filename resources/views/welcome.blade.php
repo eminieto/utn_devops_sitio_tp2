@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #f0f0;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -69,8 +69,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
+				    <H1>EQUIPO 4</H1>
                     @foreach ($data as $row)
-                        <div>registro de la base de datos ID = {{ $row->id }}: Description: {{ $row->description }}</div>
+                        <div>Integrante = {{ $row->id }}: Nombre: {{ $row->Nombre }}</div>
                     @endforeach
                 </div>
             </div>
